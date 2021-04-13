@@ -14,6 +14,6 @@ services:
     image: "redis"
     networks:
       - javahome-app
-networks:
-  javahome-app:
-    driver: bridge
+    networks:
+      javahome-app:
+        driver: bridge
